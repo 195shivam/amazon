@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(4, 4, 26);
+    height: 55px;
+    width: 94.9rem;
+}
+.navbar ul{
+    display: flex;
+    
+}
+ul li :hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+li{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: White;
+    
+}
+
+#logo{
+    margin-left: 2px;
+    height: 40px;
+    width: 40px;
+}
+#searchBar input{
+    width: 900px;
+    height: 35px;
+    border-radius: 5px;
+}
+#searchBar button{
+    width: 45px;
+    height: 35px;
+    background-color:rgb(220 162 111);
+    position: relative;
+    right: 45px;
+    top: 2px;
+    border-radius: 0px 5px 5px 0px;
+    border: 2px solid rgb(220 162 111) ;
+    
+}
+#searchBar button img{
+    width: 20px;
+}
+#Deliver{
+    margin-left: 80px;
+}
+.topLeft {
+    margin-bottom: 8px;
+}
+.topLeft li :hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.topLeft li img{
+    width:30px;
+    height: 30px;
+    position: relative;
+    top: 4px;
+}
+.topLeft{
+    display: flex;
+}
+.topLeft li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.topLeft li{
+    box-sizing: border-box;
+    position: relative;
+    right: 40px;
+    margin-left: 18px;
+}
+
+ul {
+    white-space: pre-wrap;
+  }
+#mainBody{
+    background-image: url("https://m.media-amazon.com/images/I/71SHje9KZ2L._SX3000_.jpg");
+    background-repeat: no-repeat;
+    background-size: 1520px 690px;
+    height: 1000px;
+}
+.item1{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: relative;
+    top: 300px;
+    left: 30px;
+}
+.item1 h2{
+    margin-left: 13px;
+}
+
+.item2{
+    background-color:  white;
+    width: 350px;
+    height: 370px;
+    position: relative;
+    left: 400px;
+    bottom: 70px;
+}
+
+.item3{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: relative;
+    left: 770px;
+    bottom: 440px;
+}
+
+.item4{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    position: relative;
+    left: 1140px;
+    bottom: 810px;
+}
+#item-1 img{
+    width: 150px;
+    /* height: 90px; */
+
+
+}
+#item-2{
+    color: black;
+    position: relative;
+    bottom: 40px;
+}
+#item-3 img{
+    width: 150px;
+    /* height: 90px; */
+
+
+}
+#item-3{
+    /* color: black; */
+    position: absolute;
+    bottom: 165px;
+    left:180px
+}
+#item-4{
+    color: black;
+    position: absolute;
+    bottom: 140px;
+    left:180px
+}
+#item-5 img{
+    width: 150px;
+    /* height: 90px; */
+}
+#item-5{
+    /* color: black; */
+    position: absolute;
+    bottom: 30px;
+    /* left:180px */
+}
+#item-6{
+    color: black;
+    position: absolute;
+    bottom: 5px;
+    /* left:180px */
+}
+#item-7 img{
+    width: 150px;
+    /* height: 90px; */
+}
+#item-7{
+    /* color: black; */
+    position: absolute;
+    bottom: 30px;
+    left:180px
+}
+#item-8{
+    color: black;
+    position: absolute;
+    bottom: 5px;
+    left:180px
+}
+.item2 h2{
+    margin-left: 13px;
+}
+.item3 h2{
+    margin-left: 13px;
+}
+.item4 h2{
+    margin-left: 13px;
+}
